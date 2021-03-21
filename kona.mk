@@ -18,3 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
+
+# Init
+PRODUCT_PACKAGES += \
+    init.qti.dcvs.sh \
+    init.target.rc
