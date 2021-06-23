@@ -14,3 +14,6 @@
 # limitations under the License.
 
 DEVICE_PATH := device/xiaomi/psyche
+
+# Include proprietary files
+-include vendor/xiaomi/psyche/BoardConfigVendor.mk
