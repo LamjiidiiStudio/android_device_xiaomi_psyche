@@ -20,6 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
 
 # Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
+
 PRODUCT_PACKAGES += \
+    fstab.qcom \
     init.qti.dcvs.sh \
     init.target.rc
