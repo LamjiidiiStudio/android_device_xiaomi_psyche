@@ -9,49 +9,35 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t aliothin_info = {
-    .hwc_value = "INDIA",
-    .sku_value = "",
-
-    .brand = "Mi",
-    .device = "aliothin",
-    .marketname = "Mi 11X",
-    .model = "M2012K11AI",
-    .build_fingerprint = "Mi/aliothin/aliothin:13/TKQ1.220829.002/V14.0.2.0.TKHINXM:user/release-keys",
-
-    .nfc = false,
-};
-
-static const variant_info_t alioth_global_info = {
+static const variant_info_t psyche_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "",
 
-    .brand = "POCO",
-    .device = "alioth",
-    .marketname = "POCO F3",
-    .model = "M2012K11AG",
-    .build_fingerprint = "POCO/alioth_global/alioth:13/TKQ1.220829.002/V14.0.4.0.TKHMIXM:user/release-keys",
+    .brand = "Xiaomi",
+    .device = "psyche",
+    .marketname = "Xiaomi 12X",
+    .model = "2112123AG",
+    .build_fingerprint = "Xiaomi/psyche_global/psyche:13/RKQ1.211001.001/V14.0.5.0.TLDMIXM:user/release-keys",
 
     .nfc = true,
 };
 
-static const variant_info_t alioth_info = {
+static const variant_info_t psyche_info = {
     .hwc_value = "",
     .sku_value = "",
 
-    .brand = "Redmi",
-    .device = "alioth",
-    .marketname = "Redmi K40",
-    .model = "M2012K11AC",
-    .build_fingerprint = "Redmi/alioth/alioth:13/TKQ1.220829.002/V14.0.4.0.TKHCNXM:user/release-keys",
+    .brand = "Xiaomi",
+    .device = "psyche",
+    .marketname = "Xiaomi 12X",
+    .model = "2112123AG",
+    .build_fingerprint = "Xiaomi/psyche_global/psyche:13/RKQ1.211001.001/V14.0.5.0.TLDMIXM:user/release-keys",
 
     .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
-    aliothin_info,
-    alioth_global_info,
-    alioth_info,
+    psyche_global_info,
+    psyche_info,
 };
 
 void vendor_load_properties() {

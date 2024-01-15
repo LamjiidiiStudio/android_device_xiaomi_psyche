@@ -2,11 +2,11 @@
 persist.vendor.audio.delta.refresh=true
 persist.vendor.audio.misound.disable=true
 ro.audio.monitorRotation=true
-ro.vendor.audio.enhance.support=false
+ro.vendor.audio.afe.record=true
+ro.vendor.audio.dump.mixer=true
 ro.vendor.audio.gain.support=true
 ro.vendor.audio.karaok.support=true
-ro.vendor.audio.ns.support=false
-ro.vendor.audio.sfx.audiovisual=false
+ro.vendor.audio.multiroute=true
 ro.vendor.audio.soundtrigger.appdefine.cnn.level=35
 ro.vendor.audio.soundtrigger.appdefine.gmm.level=55
 ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=65
@@ -21,14 +21,29 @@ ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=30
 ro.vendor.audio.soundtrigger.xanzn.vop.level=10
 ro.vendor.audio.soundtrigger.xatx.cnn.level=45
 ro.vendor.audio.soundtrigger.xatx.gmm.level=25
-ro.vendor.audio.soundtrigger.xatx.gmm.user.level=40
+ro.vendor.audio.soundtrigger.xatx.gmm.user.level=20
 ro.vendor.audio.soundtrigger.xatx.vop.level=-10
 ro.vendor.audio.spk.clean=true
 ro.vendor.audio.spk.stereo=true
+ro.vendor.audio.voice.volume.boost=none
+ro.vendor.audio.notify5Point1InUse=true
+vendor.audio.camera.unsupport_low_latency=true
+ro.vendor.audio.voice.change.support=true
+ro.vendor.audio.voice.change.youme.support=true
+ro.vendor.audio.voice.change.version=2
+ro.vendor.audio.policy.engine.odm=true
+ro.vendor.audio.soundtrigger.pangaea=1
+ro.vendor.audio.soundtrigger.sva-5.0=1
+ro.vendor.audio.game.mode=true
+ro.vendor.audio.aiasst.support=true
+ro.vendor.audio.support.sound.id=true
+ro.vendor.audio.misound.bluetooth.enable=true
 ro.vendor.audio.us.type=mius
-ro.vendor.audio.zoom.support=true
-ro.vendor.audio.zoom.type=1
 
 # Display
+vendor.display.enable_hdr10_gpu_target=1
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
+
+# DPM
+persist.vendor.dpm.idletimer.mode=default

@@ -22,4 +22,4 @@ PRODUCT_MODEL := Xiaomi 12X
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := POCO/psyche_global/psyche:13/TKQ1.220829.002/V14.0.4.0.TKHMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/psyche_global/psyche:13/RKQ1.211001.001/V14.0.5.0.TLDMIXM:user/release-keys
